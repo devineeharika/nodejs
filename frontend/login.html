@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta name="viewport" content="width-device-width,initial-scale=1">
+      <meta charset="UTF-8">
+      
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  
+      <link rel="stylesheet" href="main1.css">
+    </head>
+    <body>
+       <div class="form-container">
+         <form action="http://localhost:5000/users/login" method="POST">
+           <div class="title">
+             <span>LOGIN</span>
+
+           </div>
+           <div class="input-group">
+              <div class="fontstyle">Email:</div>
+                <input type="email" name="email" required>
+                <span class="bar"></span>
+              </div>
+              <div class="input-group">
+                  <div class="fontstyle">Password:</div>
+                    <input type="password" name="password" required>
+                    <span class="bar"></span>
+                  </div>
+                  <button>
+                      <i class="fa fa-arrow-right icon"></i>
+                      
+                      </button>
+                      <div class="register">
+                        <a href="signup.html">Don't have an account?<span>register</span></a>
+                      </div>
+                      
+         </form>
+       </div>
+
+
+
+    <!-- <form action="http://localhost:5000/users/login" method="POST">
+      email: <input type="email" name="email"><br>
+        password: <input type="password" name="password"><br>
+     <button type="submit">Login</button>
+    </form>
+     -->
+  </body>
+</html>
